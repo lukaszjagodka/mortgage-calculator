@@ -1,0 +1,18 @@
+.navbar-container {
+  height: 50px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.navbar-name {
+  height: 50px;
+  width: 300px;
+  position: static;
+  font: 1.5em sans-serif;
+  left: 0px;
+}
+
+.p-navbar { 
+  margin: 0;
+  transform: translateY(25%);
+}

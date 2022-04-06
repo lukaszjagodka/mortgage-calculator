@@ -1,0 +1,17 @@
+.sliders-container {
+  height: 800px;
+  background-color: rgb(46, 245, 245);
+}
+
+@media only screen and (max-width: 900px) {
+  .sliders-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .sliders-container {
+    float: left;
+    width: 50%;
+  }
+}
