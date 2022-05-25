@@ -8,11 +8,11 @@
   height: 50px;
   width: 300px;
   position: static;
-  font: 1.5em sans-serif;
+  font: 1em sans-serif;
   left: 0px;
 }
 
 .p-navbar { 
   margin: 0;
-  transform: translateY(25%);
+  transform: translateY(30%);
 }

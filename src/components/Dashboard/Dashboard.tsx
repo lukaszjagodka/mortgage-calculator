@@ -8,10 +8,8 @@ function Dashboard() {
   return (
     <div className="dashboard-container">
       <Navbar />
-      <div className="sliders-and-summary">
-        <Sliders />
-        <Summary />
-      </div>
+      <Sliders />
+      <Summary />
     </div>
   );
 }
