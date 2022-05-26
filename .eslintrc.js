@@ -6,6 +6,7 @@ module.exports = {
     },
     "extends": [
         "airbnb",
+        'airbnb-typescript'
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -14,7 +15,7 @@ module.exports = {
         },
         "ecmaVersion": "latest",
         "sourceType": "module",
-        project: './tsconfig.json',
+        "project": './tsconfig.json',
     },
     "plugins": [
         "react",
@@ -26,10 +27,20 @@ module.exports = {
           pragma: 'React',
           version: 'detect',
         },
-        'import/resolver': {
-          node: {
-            extensions: ['.js', '.jsx', '.ts', '.tsx'],
-          },
+        "import/extensions": [".js",".jsx",".ts",".tsx"],
+        "import/parsers": {
+          "@typescript-eslint/parser": [".ts",".tsx"]
+        }, 
+        "import/resolver": {
+          "node": {
+            "moduleDirectory": ['node_modules', 'src/'],
+            "extensions": [
+              ".js",
+              ".jsx",
+              ".ts",
+              ".tsx"
+            ]
+          }
         },
     },
     "rules": {
@@ -46,6 +57,7 @@ module.exports = {
       '@typescript-eslint/no-unused-vars': 'off',
       '@typescript-eslint/explicit-module-boundary-types': 'off',
       'default-param-last' : 'off',
+      "import/no-unresolved": "off",
       "import/extensions": [
         "error",
         "ignorePackages",
@@ -53,8 +65,8 @@ module.exports = {
           "js": "never",
           "jsx": "never",
           "ts": "never",
-          "tsx": "never"
+          "tsx": "never",
         }
-     ]
+      ]
     }
 }

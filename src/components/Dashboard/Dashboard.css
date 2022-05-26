@@ -1,0 +1,16 @@
+.dashboard-container {
+  height: 100vh;
+  margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .dashboard-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .dashboard-container {
+    width: 1300px;
+  }
+}

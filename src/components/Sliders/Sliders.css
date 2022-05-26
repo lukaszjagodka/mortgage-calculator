@@ -1,0 +1,91 @@
+.sliders-container {
+  height: 800px;
+  background-color: azure;
+}
+
+@media only screen and (min-width: 1000px) {
+  .sliders-container {
+    float: left;
+    width: 50%;
+  }
+}
+
+.p-slider-name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 1.3rem;
+  background-color: rgb(173, 245, 131);
+}
+
+.amount-of-credit {
+  margin-top: -20px;
+  margin-bottom: -20px;
+  height: 110px;
+}
+
+.input-module {
+  position: relative;
+  left: 50%;
+  transform: translateX(-20%);
+}
+
+.repayment-period {
+  height: 110px;
+  margin-bottom: -20px;
+}
+
+.interest {
+  margin: auto;
+  height: 110px;
+  margin-bottom: -20px;
+}
+
+.credit-amount-input {
+  height: 40px;
+  width: 170px;
+  font-size: 1rem;
+  float: left;
+  margin-left: -1px;
+  text-align: center;
+  caret-color: transparent;
+}
+
+.credit-amount-btn-minus {
+  font-size: 30px;
+  text-align: center;
+  height: 46px;
+  width: 45px;
+  border-radius: 0px;
+  background-color: white;
+  float: left;
+  border-style: 1px;
+}
+
+.credit-amount-btn-plus {
+  font-size: 30px;
+  text-align: center;
+  height: 46px;
+  width: 45px;
+  border-radius: 0px;
+  background-color: white;
+  float: left;
+  border-style: 1px;
+  margin-left: -1px;
+}
+
+.calculate-btn {
+  height: 40px;
+  width: 150px;
+  top: 30px;
+}
+
+.p-fixInst {
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+
+.p-decrInst {
+  padding-top: 5px;
+  font-size: 1.5rem;
+}
